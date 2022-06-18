@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca";
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2%;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: hsla(184, 100%, 22%, 0.856);
+  color: hsl(0, 0%, 95%);
+  border-radius: 10px;
+  width: 15%;
+  padding: 1% 2%;
+}
+
+nav a:hover {
+  background-color: hsla(31, 77%, 52%, 0.644);
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  width: 55%;
+}
+
+.one,
+.two,
+.three {
+  color: white;
+  flex: 1;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.one {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0 8px;
+}
+
+.one a {
+  color: hsl(31, 77%, 52%);
+}
+
+.two a {
+  color: hsl(184, 100%, 22%);
+}
+
+.three a {
+  color: hsl(179, 100%, 13%);
+}
+
+.two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.three {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+
+p {
+  margin-bottom: 5%;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5%;
+  background-color: hsl(0, 0%, 95%);
+  color: black;
+  border-radius: 25px;
+  width: 60%;
+  text-align: center;
+  font-size: 15px;
+  margin: 10% 0 0;
+}
