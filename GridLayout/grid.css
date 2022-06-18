@@ -14,6 +14,7 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 2%;
   margin: 0;
+  text-align: right;
 }
 
 nav a {
@@ -38,11 +39,11 @@ main {
   width: 70%;
   display: grid;
   grid-template-areas:
-    "a a a b"
-    "a a a b"
-    "c c d d"
-    "c c e e"
-    "c c e e";
+    "t t t o"
+    "t t t o"
+    "b b i i"
+    "b b e e"
+    "b b e e";
   column-gap: 10px;
   row-gap: 10px;
   margin: 0 auto;
@@ -51,25 +52,25 @@ main {
 .first-container {
   padding: 7em;
   background-color: orangered;
-  grid-area: a;
+  grid-area: t;
 }
 
 .second-container {
   padding: 2em;
   background-color: orange;
-  grid-area: b;
+  grid-area: o;
 }
 
 .third-container {
   padding: 7em;
   background-color: green;
-  grid-area: c;
+  grid-area: b;
 }
 
 .fourth-container {
   padding: 2em;
   background-color: hsla(184, 100%, 22%, 0.856);
-  grid-area: d;
+  grid-area: i;
 }
 
 .fifth-container {
